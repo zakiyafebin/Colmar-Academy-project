@@ -88,6 +88,7 @@ nav a:hover{
     background-color: rgb(223, 221, 221);
     text-align: center;
     padding: .5rem;
+    margin-right:  3em;
     
 }
 .startHere a{
@@ -239,6 +240,36 @@ media qury */
     .banner, .bannerText{
         /* border: 2px solid green; */
         width: 100%;
+    }
+    .section2 {
+        display: block;
+    }
+    .sec2Img{
+        display: none;
+    }
+     .sec2Part2{
+        width: 100%;
+    }
+    .cardContainerSec2{
+        display: block;
+    }
+    .sec2Card, .cardRight2{
+        width: 100%;
+    }
+    .cardContainer{
+        display: block;
+    }
+    .sec3Txt, .cardImg3{
+        display: none;
+    }
+    .sec4Part2, .videoTxt{
+        display: none;
+    }
+    .sec4Img{
+        width: 100%;
+    }
+    .footerNav{
+        display: none;
     }
 
 }
