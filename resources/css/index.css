@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+.desktop{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 4px red;
+}
+.head{
+    border-bottom: 2px solid black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+}
+nav li {
+    display: inline;
+    padding-right: 2rem;
+
+  }
+  
+  nav li:last-child {
+    padding-right: 0;
+  }
+  nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 200; 
+
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.mobile{
+    display: none;
+}
+
+
+/* ===================================================== */
+.bannerPart{
+    display: flex;
+    padding: 1.2rem;
+
+}
+.banner{
+   
+   
+  
+}
+.banner img{
+    width: 90%;
+   
+}
+.bannerText{
+    /* padding: 0 0rem; */
+    /* border: 2px solid red; */
+    width: 40%;
+    height: auto;
+    margin: auto;
+    
+}
+.font1rem{
+    font-size: 1.2rem;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.heading2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.brdr{
+    border: 2px solid red;
+}
+.pdig{
+    padding: 0;
+}
+.textCenter{
+    text-align: center;
+}
+.startHere{
+    border: 2px solid black;
+    background-color: rgb(223, 221, 221);
+    text-align: center;
+    padding: .5rem;
+    
+}
+.startHere a{
+    
+    color: red;
+    padding: 1rem 0 ;
+    text-decoration: none;
+}
+/* ================================================== */
+.section2 {
+    display: flex;
+}
+.sec2Img img {
+   width: 100%;
+   height: auto;
+   padding: 1.3rem 0;
+}
+.sec2Img{
+    width: 85%;
+    /* border: 2px solid red; */
+    border-right: 1px solid rgb(111, 189, 201);
+    padding: 1.3rem;
+
+}
+.sec2Part2{
+  
+}
+.cardContainerSec2{
+    display: flex;
+    
+    /* border-left: 1px solid rgb(111, 189, 201); */
+    border-bottom: 1px solid rgb(111, 189, 201);
+    
+}
+.sec2Card img{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.sec2Card{
+    width: 35%;
+    /* border: 2px solid green; */
+}
+.cardContainerSec3{
+    display: flex;    
+}
+.cardRight2{
+    /* border: 2px solid red; */
+    
+}
+
+/* ===================================================================== */
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardSec3{
+    padding: 1rem;
+    flex-basis: 33.33%;
+
+
+}
+.cardSec3 img{
+    width: 100%;
+}
+/* ===================================================================================== */
+.section4 {
+    display: flex;
+}
+.sec4Img img {
+   width: 100%;
+   height: auto;
+   padding: 1.3rem 0;
+}
+.sec4Img{
+    width: 85%;
+    padding: 1.3rem;
+
+}
+.sec2Part2{
+  
+}
+.cardContainerSec4{
+    display: flex;
+}
+.sec2Card img{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.sec2Card{
+    width: 35%;
+    /* border: 2px solid green; */
+}
+.cardRight2{
+    /* border: 2px solid red; */
+    
+}
+.line-1{
+    height: 3px;
+    background: black;
+}
+footer{
+    display: flex;
+    padding: 1rem;
+    border-top: 2px solid black;
+}
+.copyright{
+    flex-grow: 1;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    margin-left: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(68, 120, 142);
+    text-decoration: underline;
+}
+
+
+/* ===============================================================
+media qury */
+
+@media only screen and (max-width: 710px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        width: 100%;
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mobile li a{
+        
+        text-decoration: none;
+    }
+    .bannerPart{
+        
+        display: block;
+        padding: 1rem;
+        width: 100%;
+    }
+    .banner, .bannerText{
+        /* border: 2px solid green; */
+        width: 100%;
+    }
+
+}
